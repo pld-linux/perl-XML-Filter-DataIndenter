@@ -27,14 +27,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-ALPHA CODE ALERT: This is the first release.  Feedback and patches
+ALPHA CODE ALERT: This is the first release. Feedback and patches
 welcome.
 
 In data oriented XML, leaf elements (those which contain no elements)
 contain only character content, all other elements contain only child
-elements and ignorable whitespace.  This filter consumes all
+elements and ignorable whitespace. This filter consumes all
 whitespace not in leaf nodes and replaces it with whitespace that
-indents all elements.  Character data in leaf elements is left
+indents all elements. Character data in leaf elements is left
 unmolested.
 
 %description -l pl
