@@ -35,10 +35,18 @@ contain only character content, all other elements contain only child
 elements and ignorable whitespace.  This filter consumes all
 whitespace not in leaf nodes and replaces it with whitespace that
 indents all elements.  Character data in leaf elements is left
-unmolested
+unmolested.
 
-# %description -l pl
-# TODO
+%description -l pl
+UWAGA, KOD ALPHA: to jest pierwsza wersja. Sygna³y zwrotne i ³aty mile
+widziane.
+
+W XML-u zorientowanym na dane li¶cie (elementy nie zawieraj±ce innych
+elementów) zawieraj± tylko dane znakowe, a wszystkie inne elementy
+zawieraj± tylko elementy potomne i ignorowalne spacje. Ten filtr
+poch³ania wszystkie spacje nie bêd±ce w li¶ciach i zamienia je na
+spacje tworz±ce wciêcia dla wszystkich elementów. Dane znakowe w
+li¶ciach pozostaj± nie molestowane.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -61,5 +69,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/%{pdir}/*/*.pm
+%{perl_vendorlib}/XML/*/*.pm
 %{_mandir}/man3/*
