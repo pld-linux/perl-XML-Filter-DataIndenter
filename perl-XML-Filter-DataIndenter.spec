@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Filter-DataIndenter
-Summary:	XML::Filter::DataIndenter - SAX2 Indenter for data oriented XML
-#Summary(pl):	
+Summary:	XML::Filter::DataIndenter - SAX2 indenter for data oriented XML
+Summary(pl):	XML::Filter::DataIndenter - tworzenie wciêæ SAX2 dla XML-a z danymi
 Name:		perl-XML-Filter-DataIndenter
 Version:	0.1
 Release:	1
@@ -27,14 +27,15 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-B<ALPHA CODE ALERT>: This is the first release.  Feedback and patches
+ALPHA CODE ALERT: This is the first release.  Feedback and patches
 welcome.
 
 In data oriented XML, leaf elements (those which contain no elements)
 contain only character content, all other elements contain only child
-elements and ignorable whitespace. This filter consumes all whitespace
-not in leaf nodes and replaces it with whitespace that indents all
-elements. Character data in leaf elements is left unmolested
+elements and ignorable whitespace.  This filter consumes all
+whitespace not in leaf nodes and replaces it with whitespace that
+indents all elements.  Character data in leaf elements is left
+unmolested
 
 # %description -l pl
 # TODO
