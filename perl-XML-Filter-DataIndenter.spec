@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-DataIndenter
+%define		pdir	XML
+%define		pnam	Filter-DataIndenter
 Summary:	XML::Filter::DataIndenter - SAX2 indenter for data oriented XML
 Summary(pl):	XML::Filter::DataIndenter - tworzenie wciêæ SAX2 dla XML-a z danymi
 Name:		perl-XML-Filter-DataIndenter
