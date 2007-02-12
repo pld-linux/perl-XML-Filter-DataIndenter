@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-DataIndenter
 Summary:	XML::Filter::DataIndenter - SAX2 indenter for data oriented XML
-Summary(pl):	XML::Filter::DataIndenter - tworzenie wciêæ SAX2 dla XML-a z danymi
+Summary(pl.UTF-8):   XML::Filter::DataIndenter - tworzenie wciÄ™Ä‡ SAX2 dla XML-a z danymi
 Name:		perl-XML-Filter-DataIndenter
 Version:	0.1
 Release:	1
@@ -37,16 +37,16 @@ whitespace not in leaf nodes and replaces it with whitespace that
 indents all elements. Character data in leaf elements is left
 unmolested.
 
-%description -l pl
-UWAGA, KOD ALPHA: to jest pierwsza wersja. Sygna³y zwrotne i ³aty mile
+%description -l pl.UTF-8
+UWAGA, KOD ALPHA: to jest pierwsza wersja. SygnaÅ‚y zwrotne i Å‚aty mile
 widziane.
 
-W XML-u zorientowanym na dane li¶cie (elementy nie zawieraj±ce innych
-elementów) zawieraj± tylko dane znakowe, a wszystkie inne elementy
-zawieraj± tylko elementy potomne i ignorowalne spacje. Ten filtr
-poch³ania wszystkie spacje nie bêd±ce w li¶ciach i zamienia je na
-spacje tworz±ce wciêcia dla wszystkich elementów. Dane znakowe w
-li¶ciach pozostaj± nie molestowane.
+W XML-u zorientowanym na dane liÅ›cie (elementy nie zawierajÄ…ce innych
+elementÃ³w) zawierajÄ… tylko dane znakowe, a wszystkie inne elementy
+zawierajÄ… tylko elementy potomne i ignorowalne spacje. Ten filtr
+pochÅ‚ania wszystkie spacje nie bÄ™dÄ…ce w liÅ›ciach i zamienia je na
+spacje tworzÄ…ce wciÄ™cia dla wszystkich elementÃ³w. Dane znakowe w
+liÅ›ciach pozostajÄ… nie molestowane.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
