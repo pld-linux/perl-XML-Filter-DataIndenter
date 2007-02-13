@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-DataIndenter
 Summary:	XML::Filter::DataIndenter - SAX2 indenter for data oriented XML
-Summary(pl.UTF-8):   XML::Filter::DataIndenter - tworzenie wcięć SAX2 dla XML-a z danymi
+Summary(pl.UTF-8):	XML::Filter::DataIndenter - tworzenie wcięć SAX2 dla XML-a z danymi
 Name:		perl-XML-Filter-DataIndenter
 Version:	0.1
 Release:	1
